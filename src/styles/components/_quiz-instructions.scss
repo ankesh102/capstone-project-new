@@ -1,0 +1,29 @@
+
+
+.instructions {
+    border: 1px solid darken($off-white, 10%);
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: $lg;
+    padding: $sm $lg;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+
+    h1{
+        color: $off-black;
+        font-size: $md;
+        text-align: center;
+
+    }
+
+    .browser-default {
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+   
+}

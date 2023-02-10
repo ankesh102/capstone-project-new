@@ -1,0 +1,102 @@
+#home {
+    background-image: url('../../assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    section {
+        background-color: rgba(114, 111, 111, 0.7);
+        padding-left: $md;
+        padding-right: $md;
+        height: 80%;
+        width: 35%;
+        margin-top: 3rem;
+        border-radius: 40px;
+    }
+
+    .mdi-cube {
+        font-size: 10rem;
+        color: $orange;
+        margin-top: 20px;
+    }
+
+    h1 {
+        margin-top: 20px;
+        font-size: $lg;
+        text-align: center;
+        color: $off-white;
+        font-weight: 400 ;
+
+    }
+
+    .play-button-container {
+        width: 100%;
+        margin-top: 120px;
+
+    }
+
+    a.play-button {
+        background-color: $green;
+        color: #fff;
+        display: block;
+        border-radius: $button-radius;
+        padding: $normal;
+        cursor: pointer;
+        text-align: center;
+        transition: 0.3s linear all;
+    }
+
+
+    a.play-button:hover {
+        background-color: darken($green, 10%);
+        box-shadow: $shadow;
+    }
+
+     
+
+    .auth-conatiner {
+        width :100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: $xlg;
+    }
+
+    #login-button{
+        background-color: $red;
+    }
+    #login-button:hover{
+        background-color: darken($red, 10%);
+        box-shadow: $shadow;
+    }
+
+    #signup-button {
+        background: $blue;
+    }
+    #signup-button:hover {
+        background: darken($blue, 10%);
+        box-shadow: $shadow;
+    }
+
+    .auth-conatiner .auth-buttons{
+        color: #fff;
+        cursor: pointer;
+        border-radius: 30px;
+        padding: $normal 0;
+        text-align: center;
+        transition: 0.3s linear all;
+        width: 45%;
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    #home section {
+        padding: 0 $normal;
+        width: 100%;
+        height: 100%;
+    }
+}
